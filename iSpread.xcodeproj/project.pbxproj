@@ -248,6 +248,7 @@
 				ECC558F324C7C8F900A245A7 /* Frameworks */,
 				ECC558F424C7C8F900A245A7 /* Resources */,
 				29249F917AD9BE3A1E05D519 /* [CP] Embed Pods Frameworks */,
+				CDB095819E2EB96184A94E13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -403,6 +404,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iSpread/Pods-iSpread-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB095819E2EB96184A94E13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iSpread/Pods-iSpread-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iSpread/Pods-iSpread-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iSpread/Pods-iSpread-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
