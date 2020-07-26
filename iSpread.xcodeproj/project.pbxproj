@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		493B3620FD3367F8B946B393 /* Pods_iSpread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D3325D654FB4C8EA604FBA /* Pods_iSpread.framework */; };
 		EC5BAC7A24C906C500BDE381 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5BAC7924C906C500BDE381 /* LoginViewController.swift */; };
 		EC5BAC7C24C906FD00BDE381 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5BAC7B24C906FD00BDE381 /* ConversationsViewController.swift */; };
 		EC5BAC7E24C9075E00BDE381 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5BAC7D24C9075E00BDE381 /* RegisterViewController.swift */; };
+		EC7214BD24CA67B000D42F56 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7214BC24CA67B000D42F56 /* Extensions.swift */; };
+		EC7214BF24CB78CD00D42F56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC7214BE24CB78CD00D42F56 /* GoogleService-Info.plist */; };
+		EC7214C124CCDDF100D42F56 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7214C024CCDDF100D42F56 /* DatabaseManager.swift */; };
 		ECC558FA24C7C8F900A245A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC558F924C7C8F900A245A7 /* AppDelegate.swift */; };
 		ECC558FC24C7C8F900A245A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC558FB24C7C8F900A245A7 /* SceneDelegate.swift */; };
 		ECC5590124C7C8F900A245A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC558FF24C7C8F900A245A7 /* Main.storyboard */; };
@@ -41,9 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35D3325D654FB4C8EA604FBA /* Pods_iSpread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSpread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		608F400C4DAC357F62251C3A /* Pods-iSpread.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSpread.release.xcconfig"; path = "Target Support Files/Pods-iSpread/Pods-iSpread.release.xcconfig"; sourceTree = "<group>"; };
 		EC5BAC7924C906C500BDE381 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EC5BAC7B24C906FD00BDE381 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		EC5BAC7D24C9075E00BDE381 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EC7214BC24CA67B000D42F56 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EC7214BE24CB78CD00D42F56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC7214C024CCDDF100D42F56 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		ECC558F624C7C8F900A245A7 /* iSpread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSpread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC558F924C7C8F900A245A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC558FB24C7C8F900A245A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +70,7 @@
 		ECC5593624C7CABE00A245A7 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		ECC5593824C7CAD600A245A7 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		ECC5593A24C7CAE500A245A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FE803795AECEAE7244BF6050 /* Pods-iSpread.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSpread.debug.xcconfig"; path = "Target Support Files/Pods-iSpread/Pods-iSpread.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493B3620FD3367F8B946B393 /* Pods_iSpread.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C08C1D30837578A5D8F368E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE803795AECEAE7244BF6050 /* Pods-iSpread.debug.xcconfig */,
+				608F400C4DAC357F62251C3A /* Pods-iSpread.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFA3B3C0BB9DC55D60DCAB8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35D3325D654FB4C8EA604FBA /* Pods_iSpread.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC5BAC7824C9036C00BDE381 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +132,11 @@
 				ECC5590F24C7C8FC00A245A7 /* iSpreadTests */,
 				ECC5591A24C7C8FC00A245A7 /* iSpreadUITests */,
 				ECC558F724C7C8F900A245A7 /* Products */,
+				2C08C1D30837578A5D8F368E /* Pods */,
+				BFA3B3C0BB9DC55D60DCAB8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		ECC558F724C7C8F900A245A7 /* Products */ = {
 			isa = PBXGroup;
@@ -120,6 +151,7 @@
 		ECC558F824C7C8F900A245A7 /* iSpread */ = {
 			isa = PBXGroup;
 			children = (
+				EC7214BE24CB78CD00D42F56 /* GoogleService-Info.plist */,
 				ECC5592F24C7C96C00A245A7 /* Resources */,
 				ECC5592E24C7C96400A245A7 /* ViewModels */,
 				ECC5592D24C7C95D00A245A7 /* Models */,
@@ -198,6 +230,8 @@
 			children = (
 				ECC558F924C7C8F900A245A7 /* AppDelegate.swift */,
 				ECC558FB24C7C8F900A245A7 /* SceneDelegate.swift */,
+				EC7214BC24CA67B000D42F56 /* Extensions.swift */,
+				EC7214C024CCDDF100D42F56 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -209,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECC5592024C7C8FC00A245A7 /* Build configuration list for PBXNativeTarget "iSpread" */;
 			buildPhases = (
+				03F4D58D5BDA570DF1EE3769 /* [CP] Check Pods Manifest.lock */,
 				ECC558F224C7C8F900A245A7 /* Sources */,
 				ECC558F324C7C8F900A245A7 /* Frameworks */,
 				ECC558F424C7C8F900A245A7 /* Resources */,
+				29249F917AD9BE3A1E05D519 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECC5590624C7C8FB00A245A7 /* LaunchScreen.storyboard in Resources */,
+				EC7214BF24CB78CD00D42F56 /* GoogleService-Info.plist in Resources */,
 				ECC5590324C7C8FB00A245A7 /* Assets.xcassets in Resources */,
 				ECC5590124C7C8F900A245A7 /* Main.storyboard in Resources */,
 			);
@@ -328,16 +365,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03F4D58D5BDA570DF1EE3769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iSpread-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29249F917AD9BE3A1E05D519 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iSpread/Pods-iSpread-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iSpread/Pods-iSpread-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iSpread/Pods-iSpread-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECC558F224C7C8F900A245A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EC5BAC7E24C9075E00BDE381 /* RegisterViewController.swift in Sources */,
+				EC7214C124CCDDF100D42F56 /* DatabaseManager.swift in Sources */,
 				EC5BAC7A24C906C500BDE381 /* LoginViewController.swift in Sources */,
 				ECC5593924C7CAD600A245A7 /* NewConversationViewController.swift in Sources */,
 				EC5BAC7C24C906FD00BDE381 /* ConversationsViewController.swift in Sources */,
 				ECC5593724C7CABE00A245A7 /* VideoPlayerViewController.swift in Sources */,
+				EC7214BD24CA67B000D42F56 /* Extensions.swift in Sources */,
 				ECC558FA24C7C8F900A245A7 /* AppDelegate.swift in Sources */,
 				ECC5593B24C7CAE500A245A7 /* ProfileViewController.swift in Sources */,
 				ECC558FC24C7C8F900A245A7 /* SceneDelegate.swift in Sources */,
@@ -512,9 +593,10 @@
 		};
 		ECC5592124C7C8FC00A245A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE803795AECEAE7244BF6050 /* Pods-iSpread.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y3576LMB63;
 				INFOPLIST_FILE = iSpread/Info.plist;
@@ -523,7 +605,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.iTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkoiv.iSpread;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -533,8 +615,10 @@
 		};
 		ECC5592224C7C8FC00A245A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608F400C4DAC357F62251C3A /* Pods-iSpread.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y3576LMB63;
 				INFOPLIST_FILE = iSpread/Info.plist;
@@ -543,7 +627,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.developers.iSpread;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkoiv.iSpread;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,7 +639,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3576LMB63;
 				INFOPLIST_FILE = iSpreadTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -576,7 +662,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3576LMB63;
 				INFOPLIST_FILE = iSpreadTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,7 +684,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3576LMB63;
 				INFOPLIST_FILE = iSpreadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -615,7 +705,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3576LMB63;
 				INFOPLIST_FILE = iSpreadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
