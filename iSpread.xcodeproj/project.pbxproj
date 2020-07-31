@@ -14,6 +14,7 @@
 		EC7214BD24CA67B000D42F56 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7214BC24CA67B000D42F56 /* Extensions.swift */; };
 		EC7214BF24CB78CD00D42F56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC7214BE24CB78CD00D42F56 /* GoogleService-Info.plist */; };
 		EC7214C124CCDDF100D42F56 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7214C024CCDDF100D42F56 /* DatabaseManager.swift */; };
+		EC7214C324CE464E00D42F56 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7214C224CE464E00D42F56 /* ChatViewController.swift */; };
 		ECC558FA24C7C8F900A245A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC558F924C7C8F900A245A7 /* AppDelegate.swift */; };
 		ECC558FC24C7C8F900A245A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC558FB24C7C8F900A245A7 /* SceneDelegate.swift */; };
 		ECC5590124C7C8F900A245A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC558FF24C7C8F900A245A7 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		ECC5593724C7CABE00A245A7 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5593624C7CABE00A245A7 /* VideoPlayerViewController.swift */; };
 		ECC5593924C7CAD600A245A7 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5593824C7CAD600A245A7 /* NewConversationViewController.swift */; };
 		ECC5593B24C7CAE500A245A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5593A24C7CAE500A245A7 /* ProfileViewController.swift */; };
+		ECEED23424D253A300D0883C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEED23324D253A300D0883C /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		EC7214BC24CA67B000D42F56 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EC7214BE24CB78CD00D42F56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC7214C024CCDDF100D42F56 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		EC7214C224CE464E00D42F56 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		ECC558F624C7C8F900A245A7 /* iSpread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSpread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC558F924C7C8F900A245A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC558FB24C7C8F900A245A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		ECC5593624C7CABE00A245A7 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		ECC5593824C7CAD600A245A7 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		ECC5593A24C7CAE500A245A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ECEED23324D253A300D0883C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		FE803795AECEAE7244BF6050 /* Pods-iSpread.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSpread.debug.xcconfig"; path = "Target Support Files/Pods-iSpread/Pods-iSpread.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,6 +193,7 @@
 				ECC5593624C7CABE00A245A7 /* VideoPlayerViewController.swift */,
 				ECC5593824C7CAD600A245A7 /* NewConversationViewController.swift */,
 				ECC5593A24C7CAE500A245A7 /* ProfileViewController.swift */,
+				EC7214C224CE464E00D42F56 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				ECC558FB24C7C8F900A245A7 /* SceneDelegate.swift */,
 				EC7214BC24CA67B000D42F56 /* Extensions.swift */,
 				EC7214C024CCDDF100D42F56 /* DatabaseManager.swift */,
+				ECEED23324D253A300D0883C /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -440,7 +446,9 @@
 				ECC558FA24C7C8F900A245A7 /* AppDelegate.swift in Sources */,
 				ECC5593B24C7CAE500A245A7 /* ProfileViewController.swift in Sources */,
 				ECC558FC24C7C8F900A245A7 /* SceneDelegate.swift in Sources */,
+				EC7214C324CE464E00D42F56 /* ChatViewController.swift in Sources */,
 				ECC5593524C7CAB000A245A7 /* PhotoViewerViewController.swift in Sources */,
+				ECEED23424D253A300D0883C /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

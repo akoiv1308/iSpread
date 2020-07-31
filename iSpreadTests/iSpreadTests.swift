@@ -7,7 +7,8 @@
 //
 
 import XCTest
-@testable import iSpread
+//@testable import iSpread
+
 
 class iSpreadTests: XCTestCase {
 
